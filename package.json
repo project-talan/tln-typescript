@@ -1,0 +1,24 @@
+{
+  "name": "com.cegid.flow.services.template",
+  "version": "20.4.0-dev",
+  "description": "Service template",
+  "main": "src/main.ts",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.1"
+  },
+  "scripts": {
+    "build": "tsc -p src",
+    "serve": "node dist/main.js",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "keywords": [
+    "expressjs",
+    "typescript"
+  ],
+  "author": "Vladyslav Kurmaz <vladyslav.kurmaz@globallogic.com>",
+  "license": "ISC"
+}
