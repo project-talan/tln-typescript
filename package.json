@@ -1,6 +1,6 @@
 {
   "name": "com.cegid.flow.services.template",
-  "version": "20.4.0-dev",
+  "version": "20.1.0",
   "description": "Service template",
   "main": "src/main.ts",
   "dependencies": {
