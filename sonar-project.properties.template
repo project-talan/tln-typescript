@@ -14,12 +14,12 @@ sonar.projectVersion=${COMPONENT_VERSION}
 sonar.sourceEncoding=UTF-8
 
 sonar.sources=src
-sonar.inclusions=
+#sonar.inclusions=
 sonar.exclusions=**/node_modules/**,**/*.spec.ts
 sonar.tests=src
 sonar.test.inclusions=**/*.spec.ts
-sonar.test.exclusions=
+#sonar.test.exclusions=
 
-sonar.typescript.node=
-sonar.typescript.exclusions=
-sonar.typescript.lcov.reportPaths=coverage/lcov.info
+#sonar.typescript.node=
+#sonar.typescript.exclusions=
+#sonar.typescript.lcov.reportPaths=coverage/lcov.info
