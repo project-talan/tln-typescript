@@ -1,5 +1,5 @@
 // https://github.com/project-talan/tln-jenkins-shared-libraries
-@Library('tln-jenkins-shared-libraries@19.10.0') _
+@Library('tln-jenkins-shared-libraries@20.1.0') _
 import org.talan.jenkins.*
 
 properties([
@@ -57,7 +57,7 @@ node {
     }
 
     stage('SonarQube analysis') {
-      helper.runSonarQubeChecks(SONARQUBE_SCANNER, SONARQUBE_SERVER, SONARQUBE_QUALITY_GATES.toString().toBoolean())
+      helper.runSonarQubeChecks(SONARQUBE_SCANNER, SONARQUBE_SERVER, SONARQUBE_QUALITY_GATES.toString().toBoolean(), true)
     }
 
     stage('Delivery') {
