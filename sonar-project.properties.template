@@ -4,7 +4,7 @@
 
 sonar.projectKey=org.talan.typescript
 sonar.projectName=org.talan.typescript
-sonar.projectVersion=${COMPONENT_VERSION}
+sonar.projectVersion=20.1.0
 #sonar.projectDescription=
 #sonar.links.homepage=
 #sonar.links.ci=
