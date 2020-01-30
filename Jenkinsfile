@@ -40,12 +40,6 @@ node {
     env.COMPONENT_ARTIFACT_ID = artifactId
     env.COMPONENT_ID = id
     env.COMPONENT_VERSION = version
-
-    println('!!!!!!!!!!!!!!!!!!!!')
-    println(groupId)
-    println(artifactId)
-    println(id)
-    println(version)
   }
 
   try {
