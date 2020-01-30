@@ -1,7 +1,7 @@
 {
-  "name": "com.cegid.flow.services.template",
+  "name": "io.talan.typescript",
   "version": "20.1.0",
-  "description": "Service template",
+  "description": "Backend service skeleton based on typescript",
   "main": "src/main.ts",
   "dependencies": {
     "express": "^4.17.1",
