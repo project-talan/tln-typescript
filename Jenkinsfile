@@ -49,7 +49,7 @@ node {
     }
 
     stage('Build') {
-      sh 'tln prereq:init:build && npm init'
+      sh 'tln prereq:init:build && npm i'
     }
 
     stage('Unit tests') {
