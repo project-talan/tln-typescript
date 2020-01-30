@@ -2,9 +2,9 @@
 #sonar.login=
 #sonar.password=
 
-sonar.projectKey=org.talan.typescript
-sonar.projectName=org.talan.typescript
-sonar.projectVersion=20.1.0
+sonar.projectKey=${COMPONENT_ID}
+sonar.projectName=${COMPONENT_ID}
+sonar.projectVersion=${COMPONENT_VERSION}
 #sonar.projectDescription=
 #sonar.links.homepage=
 #sonar.links.ci=
@@ -16,8 +16,8 @@ sonar.sourceEncoding=UTF-8
 sonar.sources=src
 #sonar.inclusions=
 sonar.exclusions=**/node_modules/**,**/*.spec.ts
-#sonar.tests=src
-#sonar.test.inclusions=**/*.spec.ts
+sonar.tests=src
+sonar.test.inclusions=**/*.spec.ts
 #sonar.test.exclusions=
 
 #sonar.typescript.node=
