@@ -1,0 +1,28 @@
+{
+  "name": "io.talan.typescript",
+  "version": "20.1.0",
+  "description": "Backend service skeleton based on typescript",
+  "main": "src/main.ts",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.1"
+  },
+  "scripts": {
+    "build": "tsc -p src",
+    "serve": "node dist/main.js",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "keywords": [
+    "expressjs",
+    "typescript"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/project-talan/tln-typescript.git"
+  },
+  "author": "Vladyslav Kurmaz <vladyslav.kurmaz@globallogic.com>",
+  "license": "ISC"
+}
