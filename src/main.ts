@@ -1,7 +1,11 @@
+import * as dotenv from 'dotenv';
 import * as express from 'express';
 
+
+dotenv.config();
+
 const app = express();
-const port = 9080;
+const port = (process.env.COMPONENT_PARAM_PORT) ? process.env.COMPONENT_PARAM_PORT : 4000;
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
