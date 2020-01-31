@@ -2,8 +2,8 @@
 #sonar.login=
 #sonar.password=
 
-sonar.projectKey=org.talan.typescript
-sonar.projectName=org.talan.typescript
+sonar.projectKey=${COMPONENT_ID}
+sonar.projectName=${COMPONENT_ID}
 sonar.projectVersion=${COMPONENT_VERSION}
 #sonar.projectDescription=
 #sonar.links.homepage=
