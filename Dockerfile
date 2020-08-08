@@ -1,4 +1,4 @@
-FROM node:12.14.1-alpine
+FROM node:14.7.0-alpine
 
 # Checking container status
 # HEALTHCHECK --interval=5s --timeout=3s CMD node src/healthcheck.js || exit 1
